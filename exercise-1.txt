@@ -1,0 +1,72 @@
+SOAL 1. NEWTON SECOND LAW 
+            *algoritma*
+1.buat variabel untuk menyimpan nilai massa
+2.assign nilai ke dalam variabel
+3.buat variabel untuk menyimpan nilai percepatan
+4.assign nilai ke dalam variabel
+5.melakukan perhitungan massa dan percepatan
+6.assign hasilnya ke dalam variabel "resultan gaya"
+
+
+            *pseudocode*
+//OUTPUT RESULTAN GAYA
+STORE "massa" with any 600 kg
+STORE "percepatan” with any 2m/s2
+STORE "resultan gaya" without any value  
+
+CALCULATE "massa" multiply "percepatan"
+SET "hasil" value with calculation result
+
+DISPLAY “hasil”
+
+=========================================
+SOAL 2. TAHUN KABISAT           
+            *algoritma*
+1.buat variabel untuk menyimpan nilai tahun
+2.assign nilai ke dalam variabel
+3.hitung nilai didalam variabel dengan 2 kondisi 
+4.hitung dengan kondisi pertama apabila tidak habis dibagi 100
+5.hitung dengan kondisi kedua apabila tidak habis dibagi 100
+6.jika kedua kondisi di atas terpenuhi assign nilai ke dalam variabel sebagai "tahun kabisat"
+7.jika kedua kondisi di atas TIDAK terpenuhi assign nilai ke dalam variabel sebagai  "bukan tahun kabisat"
+
+            *pseudocode*
+//OUTPUT TAHUN KABISAT OR NOT
+STORE "tahun" with any value
+STORE hasil without any value
+IF "tahun" modular by 100 != 0  AND "tahun" modular by 4,100,400 = 0
+    SET "hasil" with value "tahun kabisat"
+    DISPLAY "hasil"
+ELSE
+    SET "hasil" with value "bukan tahun kabisat"
+    DISPLAY "hasil"
+
+==========================================
+SOAL 3. Laundry
+
+            *algoritma*
+1.buat nilai awal inisialisasi 0
+2.tambahkan jumlah baju yg akan dimasukan dengan nilai awal
+3.simpan hasilnya di dalam variabel kapasitas
+4.jika hasilnya =20 maka mesin cuci akan menyala
+5.jika tidak maka mesin cuci tidak akan menyala
+
+
+            *pseudocode*
+STORE i with value 0
+STORE "baju" with any value
+
+CALCULATE i ADD with "baju"
+STORE "kapasitas" with value calculation result
+
+IF "kapasitas" === 20 
+    DISPLAY "Mesin Cuci ON"
+ELSE
+    DISPLAY "Mesin Cuci OFF"
+
+
+
+
+
+
+
