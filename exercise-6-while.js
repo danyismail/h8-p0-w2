@@ -1,3 +1,4 @@
+console.log('LOOPING PERTAMA')
 a=2
 while(a <= 20){
     console.log(a + ' ' + ' - ' + ' ' + 'I love coding')
@@ -5,6 +6,7 @@ while(a <= 20){
 }
 console.log('')
 
+console.log('LOOPING KEDUA')
 b=20
 while(b >= 2){
    console.log(b + ' ' + '-' + 'I' + ' ' + 'Will' + ' ' + 'become' + ' ' + 'stack' + ' ' + 'developer')
