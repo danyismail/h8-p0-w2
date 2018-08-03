@@ -10,6 +10,55 @@ var seventh = 'it!';
 var word = word + ' ' +  second + ' ' + third + ' ' + fourth + ' ' + fifth + ' ' + sixth + ' ' + seventh 
 console.log(word + '\n')
 
+//2. Index Accessing - 1 by 1
+var word = 'wow JavaScript is so cool'
+var exampleFirstWord = word[0] + word[1] + word[2]
+var secondWord = word[4] + word[5] + word[6] + word[7] + word[8] + word[9] + word[10] + word[11] + word[12] + word[13] 
+var thirdWord = word[15] + word[16]
+var fourthWord = word[18] + word[19]
+var fifthWord = word[21] + word[22] + word[23] + word[24]
+
+console.log('First Word: ' + exampleFirstWord)
+console.log('Second Word: ' + secondWord)
+console.log('Third Word: ' + thirdWord)
+console.log('Fourth Word: ' + fourthWord)
+console.log('Five Word: ' + fifthWord)
+console.log('');
+
+//3. Breaking Sentence (Again) using Substring
+var word = 'wow JavaScript is so cool';
+var firstWord = word.substring(0,3);
+var secondWord = word.substring(4, 14); 
+var thirdWord = word.substring(15,18);
+var fourthWord = word.substring(18,21);
+var fiveWord = word.substring(21,26);
+
+console.log('First Word :' + firstWord)
+console.log('Second Word :' + secondWord)
+console.log('Third Word :' + thirdWord)
+console.log('Fourth Word :' + fourthWord)
+console.log('Five Word :' + fiveWord)
+
+//4. Breaking Sentence (yet Again) and Count Each Length
+var word = 'wow JavaScript is so cool'
+var firstWord = word.substring(0,3)
+var secondWord = word.substring(4, 14)
+var thirdWord = word.substring(15,17)
+var fourthWord = word.substring(18,20)
+var fiveWord = word.substring(21,25)
+console.log('');
+// create new variables around here
+var FirstWordLength = firstWord.length
+var SecondWordLength = secondWord.length 
+var ThirdWordLength = thirdWord.length
+var FourthWordLength = fourthWord.length
+var FiveWordLength = fiveWord.length
+console.log('First Word :' + firstWord + ', with length: ' + FirstWordLength)
+console.log('Second Word :' + secondWord + ', with length: ' + SecondWordLength)
+console.log('Third Word :' + thirdWord + ', with length: ' + ThirdWordLength)
+console.log('Fourth Word :' + fourthWord + ', with length: ' + FourthWordLength)
+console.log('Five Word :' + fiveWord + ', with length: ' + FiveWordLength)
+
 
 
 
