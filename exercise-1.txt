@@ -64,6 +64,24 @@ IF "kapasitas" === 20
 ELSE
     DISPLAY "Mesin Cuci OFF"
 
+==========================================
+SOAL 4. Periksa Kuku
+
+1.Tentukan  jumlah siswa
+2.Cek apabila siswa kuku panjang maka akan dihukum
+3.Sisanya yang berkuku pendek maka akan dipuji 
+
+STORE 'siswa' with value 40
+FOR siswa less than equals 40
+    IF  "NAIL" === "LONG"
+        DISPLAY "YOU GET PUNISHMENT" 
+    ELSE 
+        DISPLAY "YOU GET PRAISE "
+
+
+
+
+
 
 
 
