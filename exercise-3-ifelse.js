@@ -1,3 +1,18 @@
+// Directions
+// Kamu diminta untuk memprogram suatu game sederhana, Proxytia namanya. Untuk memulai game itu diperlukan 2 variabel (untuk sekarang), yaitu nama dan peran. Variabel peran harus memiliki isi data, bila kosong pemain akan diberikan peringatan berupa "Pilih Peranmu untuk memulai game". Terdapat 3 peran berbeda yaitu Ksatria, Tabib, dan Penyihir. Tugas Anda adalah untuk membuat program yang mengecek isi variabel peran serta mengeluarkan respon sesuai isi variabel tersebut.
+
+// Hints
+// Variabel tetap di-input secara manual.
+// Variabel nama dan peran dapat diisi apa saja.
+// Nama tidak perlu dicek sama persis seperti contoh input/output
+// Buat If-Else berbeda masing-masing untuk mengecek peran
+// Input
+// //Contoh input
+// var nama = 'Mikael';
+// var peran = '';
+// Silakan ganti nilai nama dan peran untuk mengetes kondisi!
+
+// Output
 // // Output untuk Input nama = '' dan peran = ''
 // "Nama harus diisi!"
 
@@ -16,28 +31,19 @@
 // "Selamat datang di Dunia Proxytia, Zero"
 // "Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!"
 
-var namaKsatria = ''
+var nama = ''
 var peran = ''
-var hello = 'Selamat datang di Dunia Proxytia'
-
-if(namaKsatria === '' && peran === ''){
-    console.log('Nama dan peran harus diisi!')
-}   else if(namaKsatria === 'Mikael' && peran === '')   {
-    console.log('')
-    console.log(  'Halo Mikael, Pilih peranmu untuk memulai game')
-}   else if(namaKsatria === 'Nina' && peran === '') {
-    console.log( 'Halo Nina, Pilih peranmu untuk memulai game')
-}   else if(namaKsatria === 'Danu' && peran === '') {
-    console.log( 'Halo Danu, Pilih peranmu untuk memulai game')
-}   else if(namaKsatria === 'Zero' && peran === '') {
-    console.log( 'Halo Zero, Pilih peranmu untuk memulai game')
-}   else if(namaKsatria === 'Nina' && peran === 'Ksatria'){
-    console.log('Selamat datang di Dunia Proxytia,'+ namaKsatria)
-    console.log( 'Halo Ksatria Nina, kamu dapat menyerang dengan senjatamu!')
-}   else if( namaKsatria === 'Danu' && peran === 'Tabib'){
-    console.log('Selamat datang di Dunia Proxytia,'+ namaKsatria)
-    console.log( 'Halo Tabib Danu, kamu akan membantu temanmu yang terluka.')   
-}   else if(namaKsatria === 'Zero' && peran === 'Penyihir'){
-    console.log('Halo Penyihir Zero, ciptakan keajaiban yang membantu kemenanganmu!')
-    console.log('Selamat datang di Dunia Proxytia,'+ namaKsatria)
+if(nama === '' && peran === ''){
+    console.log('Nama harus diisi!')
+} else if(nama === nama && peran ==''){
+    console.log('Halo' + ' ' + nama + ' \n' + 'Pilih peranmu untuk memulai game!')
+} else if(nama === nama && peran === 'Ksatria'){
+    console.log('Selamat datang di Dunia Proxytia, ' + nama)
+    console.log('Halo' + ' ' + peran + ' ' +  nama + ',kamu dapat menyerang dengan senjatamu!')
+} else if(nama === nama && peran === 'Tabib'){
+    console.log('Selamat datang di Dunia Proxytia, ' + nama)
+    console.log('Halo' + ' ' + peran + ' ' +  nama + ',kamu akan membantu temanmu yang terluka.')
+} else if (nama === nama && peran === 'Penyihir'){
+    console.log('Selamat datang di Dunia Proxytia, ' + nama)
+    console.log('Halo' + ' ' + peran + ' ' +  nama + ',ciptakan keajaiban yang membantu kemenanganmu!')
 }
