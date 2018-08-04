@@ -35,7 +35,7 @@ var nama = ''
 var peran = ''
 if(nama === '' && peran === ''){
     console.log('Nama harus diisi!')
-} else if(nama === nama && peran ==''){
+} else if(nama === nama && peran ===''){
     console.log('Halo' + ' ' + nama + ' \n' + 'Pilih peranmu untuk memulai game!')
 } else if(nama === nama && peran === 'Ksatria'){
     console.log('Selamat datang di Dunia Proxytia, ' + nama)
