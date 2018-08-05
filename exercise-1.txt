@@ -53,13 +53,9 @@ SOAL 3. Laundry
 
 
             *pseudocode*
-STORE i with value 0
-STORE "baju" with any value
-
-CALCULATE i ADD with "baju"
-STORE "kapasitas" with value calculation result
-
-IF "kapasitas" === 20 
+STORE 'baju' with value 0
+FOR 'baju' LIMIT less than equal 20
+IF "baju" === 20 
     DISPLAY "Mesin Cuci ON"
 ELSE
     DISPLAY "Mesin Cuci OFF"
