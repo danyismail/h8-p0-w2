@@ -34,12 +34,14 @@ SOAL 2. TAHUN KABISAT
 //OUTPUT TAHUN KABISAT OR NOT
 STORE "tahun" with any value
 STORE hasil without any value
-IF "tahun" modular by 100 != 0  AND "tahun" modular by 4,100,400 = 0
-    SET "hasil" with value "tahun kabisat"
-    DISPLAY "hasil"
-ELSE
-    SET "hasil" with value "bukan tahun kabisat"
-    DISPLAY "hasil"
+    IF "tahun" modular by 4 not equal 0  AND "tahun" modular by 100 not equal 0
+        SET "hasil" with value "tahun kabisat"
+        DISPLAY "hasil"
+    IF ELSE "tahun" modular by 4  equal 0  AND "tahun" modular by 100  equal 0 AND "tahun" modular by 400 equal 0
+        SET "hasil" with value "tahun kabisat"
+        DISPLAY "hasil"
+    ELSE SET "hasil" with value "tahun kabisat
+        DISPLAY "hasil"
 
 ==========================================
 SOAL 3. Laundry
